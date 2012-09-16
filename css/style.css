@@ -1,0 +1,84 @@
+@charset "shift_jis";
+
+/*----------------------------------------------------------
+  レイアウト関係
+----------------------------------------------------------*/
+*{
+	padding : 0px ; 
+	margin : 0px ; 
+}
+body{
+	background-image:url(../img/back.gif);
+	font-size:0.9em;
+	font-family:Arial, sans-serif;
+	color:#333;
+	line-height:1.4;
+}
+#wrap{
+	margin:20px auto;
+	width : 1200px;
+	height: 950px;
+}
+
+#header{
+	background-image:url(../img/20120727.jpg);
+	background-color:#FFFFFF;
+	height:351px;
+	width:100%;
+
+}
+
+#column1{
+	padding :20px 0px 0px 0px;
+	background-color: #FFFFFF;
+	height:800px;
+	width:340px;
+	border: solid 1px #C0C0C0;
+	float:left;
+}
+#column2{
+	background-image:url(../img/accessback.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding :20px 0px 0px 20px;
+	background-color: #FFFFFF;
+	height:800px;
+	border: solid 1px #C0C0C0;
+	float:right;
+	width:836px;
+}
+
+#footer{
+	padding:20px 0px 0px 0px;
+	background-image:url(../img/fback.gif);
+	clear:both;
+	font-size:0.7em;
+	text-align :center;
+	height:100px;
+	background-color: #C0C0C0;
+}
+#slideshow {
+    position:relative;
+    height:350px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+h2 {
+	margin-bottom:10px; padding-left:25px;
+	border-bottom:solid 1px #cccccc;
+	background-image:url("../img/mushroom.png");
+	background-repeat:no-repeat; background-position:left center;
+}
